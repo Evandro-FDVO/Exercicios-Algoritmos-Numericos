@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------------------
 
-% Exercício  CP-4.41 - Algoritmos Numéricos
+% Exercício  CP-8.41 - Algoritmos Numéricos
 
 % Desenvolvedores:  André Depra
 %                   Evandro Falcão
