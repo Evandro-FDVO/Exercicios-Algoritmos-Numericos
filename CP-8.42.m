@@ -20,9 +20,9 @@ format long
 
 n = 10;% Número de iterações
 
-x1 = zeros(1,n);% Vetor x1 (?1);
-x2 = zeros(1,n);% Vetor x2 (?2);
-x3 = zeros(1,n);% Vetor x3 (?3);
+x1 = zeros(1,n);% Vetor x1 (sigma 1);
+x2 = zeros(1,n);% Vetor x2 (sigma 2);
+x3 = zeros(1,n);% Vetor x3 (sigma 3);
 
 x1(1,1) = -200;% Chute inicial;
 x2(1,1) = 1;% Chute inicial;
