@@ -31,7 +31,6 @@ der4_f = -0.5*sin(x0);% Quarta derivada da função f(x0);
 % ------------------------------------------------------------------------------
 
 % Erro a partir da série de Taylor
-
 erro_1=abs(fx-(fx0+der1_f.*(x-x0)));
 erro_2=abs(fx-(fx0+der1_f.*(x-x0)+(der2_f.*((x-x0).^2)./2)));
 erro_3=abs(fx-(fx0+der1_f.*(x-x0)+(der2_f.*((x-x0).^2)./2)+(der3_f.*((x-x0).^3)./6)));
