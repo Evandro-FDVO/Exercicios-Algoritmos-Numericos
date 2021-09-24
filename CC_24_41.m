@@ -31,7 +31,7 @@ I(2) = (e(3)-e(2))*(s(2)+s(3))/2;
 
 % 3/8 de Simpson
 % [0,1 ~ 0,25]
-I(3) = (3/8)*(e(6)-e(3))*(s(3)+(3*s(4))+(3*s(5))+s(6));
+I(3) = ((e(6)-e(3))/8)*(s(3)+(3*s(4))+(3*s(5))+s(6));
 
 printf("O valor do módulo de rigidez é aproximadamente: %f\n", sum(I));
 
